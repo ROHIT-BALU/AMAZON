@@ -5,7 +5,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    
     font-family: Outfit;
 }
 body{
@@ -172,4 +172,52 @@ margin: 15px 0;
 margin:15px 0;
 color: green;
 font-weight: 400px;
+}
+.product-d-purchase .btn{
+    outline: none;
+    border: none ;
+    background: #ffd814;
+    width: 100%;
+    padding: 10px 0;
+    margin-top: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.product-d-purchase .product-buy{
+    background: #ffa41c;
+}
+.product-seller-info{
+margin-top: 10px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap:4px;
+    font-size: 14px;
+    color: #565656;
+}
+.product-seller-info span{
+    color: #007185;
+}
+.product-d-purchase hr{
+    margin: 20px 0;
+}
+.product-add-list{
+    width: 100%;
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    text-align: start;
+    background: white;
+    cursor: pointer;
+}
+footer{
+    margin-top: 10px;
+    margin-left: -45px;
+    width: 1510px;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    background-color: #131921;
+    padding: 20px 50px 20px 10px;       
+    
+
 }
