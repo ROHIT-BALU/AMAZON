@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.top{
+    background: linear-gradient(124deg,white,red);
+    position: sticky;
+    top: 0;
+align-content: center;
+   padding: 10px;
+}
+.span1{
+    position: relative;
+    left: 80px;
+    top: -40PX;
+    font-size: 40px;
+padding: 20px;
+
+}
+.Search{
+    position: relative;
+   left: 400px;
+   top: -30px;
+   width: 600px;
+   height: 40px;
+   border-radius: 30px;
+   border: none;
+   padding-left: 60px;
+}
+.span2{
+    position: relative;
+  right: 260px;
+    top: -25PX;
+    font-size: 20px;
+padding: 20px;
+
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px;
+    text-align: center;
+    
+}
+.heading h2{
+    background: linear-gradient(90deg,silver,gold );
+    padding: 20px;
+}
+.or{
+    text-align: center;
+}
+.button1 {
+    text-align: center;
+    padding: 20px;
+}
+.b1{
+    background-color: red;
+    padding: 10px;
+    color: aliceblue;
+    border: none;
+    border-radius: 10px;
+   
+}
+.button2 {
+    text-align: center;
+    padding: 20px;
+}
+.b2{
+    height: 40px;
+    width: 130px;
+   border-top-left-radius: 10px;
+
+   border-bottom-left-radius: 10px;
+   padding-right: 30px;
+}
+.b3{
+    height: 40px;
+    width: 130px;
+    border-top-right-radius: 10px;
+
+   border-bottom-right-radius: 10px;
+   padding-left: 10px ;
+
+}
+
+.b2:hover{
+    background-color: blueviolet;
+}
+.b3:hover{
+    background-color: pink;
+}
+.m{
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+padding: 20px;
+}
+.m1{
+    display: flex;
+box-shadow: 10px 10px 10px ;
+padding: 20PX;
+}
+.n1{
+    background-color: white;
+    padding: 10px;
+}
+H2{
+    text-align: center;
+    background-color: wheat;
+}
+.m1:hover{
+transform: scale(1.1);
+transition: .7s;
+}
+.footer{
+    height: 60px;
+    background-color: red;
+   display: flex;
+   justify-content: space-evenly;
+   padding: 20px;
+   color: aliceblue;
+
+   
+}
+.span4{
+    font-size: 40px;
+    position: relative;
+    left: 20px;
+    color: aliceblue;
+    
+}
+.span5{
+    font-size: 40px;
+    position: relative;
+    left: 20px;
+    color: aliceblue;
+}
+@media screen and (max-width: 1160px){
+.top .Search{
+    width: 400px;
+    position: absolute;
+    top: 60px;
+    left: 20px;
+}
+.span2{
+   position: absolute; 
+   top: 50px;
+   left: 30px;
+}
+
+}
+
+
+
+    
